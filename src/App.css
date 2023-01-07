@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.home{
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.coins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(228, 204, 204);
+    height: 230px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    margin: 2rem;
+}
+.coins img{
+    height: 100px;
+    width: 100px;
+}
+.loading > div{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border-bottom: 5px solid black;
+    animation: gol 1s infinite linear;
+}
+@keyframes gol {
+    to{
+        transform: rotateZ(360deg);
+    }
+    
+}
+.loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    padding: 2rem;
+    gap: 10px;
+}
